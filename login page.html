@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amazon Sign-In</title>
+	<style>
+		body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 300px;
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 50px auto;
+}
+
+h1 {
+	color: #007fad;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="email"], input[type="password"] {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #007fad;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+a[type="button"]:hover {
+	background-color: #0056b3;
+}
+
+p {
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #007fad;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="amazon-logo-amazon-icon-transparent-free-png.png" height="120px"width="300px" alt="">
+		<form action="index.html">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br><br>
+			<input type="submit" value="Sign-In"><br>
+		</form>
+		<p>New to Amazon? <a href="#">Create an account</a></p>
+	</div>
+</body>
+</html>
